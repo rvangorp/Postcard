@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         // Now have the keyboard drop away
         enterMessageTextField.resignFirstResponder()
-        
+        // Change the button colour when the button is pushed.
         mailButton.setTitle("Displayed Text", forState: UIControlState.Normal)
         mailButton.backgroundColor = UIColor.blackColor()
         
