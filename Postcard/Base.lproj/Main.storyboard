@@ -56,15 +56,25 @@
                         <viewControllerLayoutGuide type="bottom" id="veB-Wm-8iv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kqp-DI-q2m">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-GR-d34">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="messageLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-GR-d34">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="81" width="329" height="132"/>
+                                    <rect key="frame" x="16" y="81" width="329" height="74"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5P-fn-NLB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="163" width="329" height="54"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DTc-XU-RFF">
@@ -124,6 +134,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Bhe-GR-d34"/>
+                                <exclude reference="L5P-fn-NLB"/>
                                 <exclude reference="DTc-XU-RFF"/>
                                 <exclude reference="1wP-MI-dtO"/>
                                 <exclude reference="xSj-s9-zd2"/>
@@ -140,6 +151,7 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Bhe-GR-d34"/>
+                                <include reference="L5P-fn-NLB"/>
                                 <include reference="xSj-s9-zd2"/>
                                 <include reference="8hT-Sy-0eF"/>
                                 <include reference="3lI-bA-eB6"/>
@@ -148,9 +160,10 @@
                     </view>
                     <connections>
                         <outlet property="enterMessageTextField" destination="8hT-Sy-0eF" id="y8z-6k-SLt"/>
-                        <outlet property="enterNameTextField" destination="xSj-s9-zd2" id="EdK-3y-Swx"/>
+                        <outlet property="enterNameTextField" destination="xSj-s9-zd2" id="7au-aW-qLt"/>
                         <outlet property="mailButton" destination="3lI-bA-eB6" id="9q8-3q-9bg"/>
                         <outlet property="messageLabel" destination="Bhe-GR-d34" id="URb-zx-0qH"/>
+                        <outlet property="nameLabel" destination="L5P-fn-NLB" id="Gmm-dF-0W3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoI-gb-whM" userLabel="First Responder" sceneMemberID="firstResponder"/>

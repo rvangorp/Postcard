@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var messageLabel: UILabel!
+        @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
@@ -27,23 +28,36 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+
         // Message label below will show the hidden text field
+        nameLabel.hidden = false
         messageLabel.hidden = false
-        
         // Code below will display text from the Enter Message in the hidden label
+        nameLabel.text = enterNameTextField.text
         messageLabel.text = enterMessageTextField.text
+        
+        // cannot remember what the code does below will need to look into it..
+        
         sender.backgroundColor = UIColor.redColor()
+        
+        // Code below changes the colour of the Label to red.
+        
         messageLabel.textColor = UIColor.redColor()
-        
+        nameLabel.textColor = UIColor.blueColor()
         // Removing the Enter Message field text
+        
         enterMessageTextField.text = ""
-        
+        enterNameTextField.text = ""
         // Now have the keyboard drop away
-        enterMessageTextField.resignFirstResponder()
-        // Change the button colour when the button is pushed.
-        mailButton.setTitle("Displayed Text", forState: UIControlState.Normal)
-        mailButton.backgroundColor = UIColor.blackColor()
         
+        enterMessageTextField.resignFirstResponder()
+        enterNameTextField.resignFirstResponder()
+        // Change the button colour when the button is pushed
+        
+        // Below broke the code...
+        //mailButton.setTitle("Displayed Text", forState: UIControlState.Normal)
+        
+        //mailButton.backgroundColor = UIColor.blackColor()
     }
 
 }

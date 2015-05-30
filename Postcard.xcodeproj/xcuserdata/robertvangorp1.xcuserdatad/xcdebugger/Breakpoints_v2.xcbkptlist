@@ -6,29 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Postcard/ViewController.swift"
-            timestampString = "454147975.866517"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Postcard/ViewController.swift"
-            timestampString = "454147975.866517"
+            timestampString = "454652250.343466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "sendMailButtonPressed(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -40,29 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Postcard/ViewController.swift"
-            timestampString = "454147975.866517"
+            timestampString = "454652250.343466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "sendMailButtonPressed(_:)"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Postcard/ViewController.swift"
-            timestampString = "454147975.866517"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "ViewController"
-            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
